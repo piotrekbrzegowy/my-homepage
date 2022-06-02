@@ -1,3 +1,5 @@
+import { DefaultTheme } from 'styled-components';
+
 const colorNames = {
     white: "#ffffff",
     mineShaft: "#252525",
@@ -10,7 +12,7 @@ const colorNames = {
     scienceBlue50percent: "#0366D680",
     scienceBlue20percent: "#0366D633",
     dodgerBlue: "#2188FF",
-    violet2percent: "#090A3305",
+    violet2percent: "#090A3305"
 }
 
 const media = {
@@ -18,8 +20,8 @@ const media = {
     tabletMax: 991
 }
 
-export const lightTheme = {
-    ...media,
+export const lightTheme: DefaultTheme = {
+    media,
     color: {
         textPrimary: colorNames.mineShaft,
         textSecondary: colorNames.slateGray,
@@ -44,8 +46,8 @@ export const lightTheme = {
     }
 }
 
-export const darkTheme = {
-    ...media,
+export const darkTheme: DefaultTheme = {
+    media,
     color: {
         textPrimary: colorNames.white,
         textSecondary: colorNames.white,
