@@ -1,7 +1,6 @@
-import { useAppDispatch, useAppSelector } from "../../features/homepage/hooks"
+import { useAppDispatch, useAppSelector } from "../../features/homepage/hooks";
 import { toggleTheme } from "../themeSlice";
 import { Box, Button, Icon, IconWrapper, Text, Wrapper } from "./styled";
-
 
 export const ThemeSwitch = () => {
     const dispatch = useAppDispatch();
