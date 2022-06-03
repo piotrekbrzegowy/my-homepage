@@ -12,7 +12,8 @@ const colorNames = {
     scienceBlue50percent: "#0366D680",
     scienceBlue20percent: "#0366D633",
     dodgerBlue: "#2188FF",
-    violet2percent: "#090A3305"
+    violet2percent: "#090A3305",
+    anakiwa: "#8CC2FF"
 }
 
 const media = {
@@ -40,6 +41,7 @@ export const lightTheme: DefaultTheme = {
         buttonBackground: colorNames.dodgerBlue,
         buttonBackgroundHover: colorNames.scienceBlue,
         buttonBorder: colorNames.iron30percent,
+        buttonShadow: colorNames.anakiwa,
         sunIcon: colorNames.white,
         socialIconBackground: colorNames.mineShaft,
         socialIconBackgroundHover: colorNames.dodgerBlue,
@@ -68,6 +70,7 @@ export const darkTheme: DefaultTheme = {
         buttonBackground: colorNames.dodgerBlue,
         buttonBackgroundHover: colorNames.scienceBlue,
         buttonBorder: colorNames.violet2percent,
+        buttonShadow: colorNames.anakiwa,
         sunIcon: colorNames.mineShaft,
         socialIconBackground: colorNames.white,
         socialIconBackgroundHover: colorNames.dodgerBlue,
