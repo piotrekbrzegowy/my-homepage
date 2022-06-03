@@ -1,8 +1,8 @@
-import { ThemeSwitch } from "../../../common/ThemeSwitch"
-import { Header } from "./Header"
-import { Skills } from "./Section"
-import { futureSkillsData, skillsData } from "./skillsData"
-import { Wrapper } from "./styled"
+import { ThemeSwitch } from "../../../common/ThemeSwitch";
+import { Header } from "./Header";
+import { Skills } from "./Section";
+import { futureSkillsData, skillsData } from "./skillsData";
+import { Wrapper } from "./styled";
 
 export const PersonalHomepage = () => (
     <Wrapper>
