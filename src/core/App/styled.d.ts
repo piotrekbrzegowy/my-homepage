@@ -14,6 +14,7 @@ interface IColors {
     sectionTitleBorder: string;
     sectionBullet: string;
     repoBackground: string;
+    repoTitle: string;
     repoShadow: string;
     repoBorder: string;
     repoBorderHover: string;
