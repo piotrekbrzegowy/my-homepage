@@ -31,10 +31,10 @@ export const Button = styled.button`
 
 export const Box = styled.span`
     display: flex;
-    background-color: ${({ theme }) => theme.color.background};
+    background-color: ${({ theme }) => theme.color.themeSwitchBackground};
     width: 48px;
     padding: 3px;
-    border: 1px solid ${({ theme }) => theme.color.buttonBorder};
+    border: 1px solid ${({ theme }) => theme.color.themeSwitchBorder};
     border-radius: 12px;
 `;
 
@@ -42,7 +42,7 @@ export const IconWrapper = styled.div<Props>`
     display: flex;
     padding: 3px;
     border-radius: 50%;
-    background-color: ${({ theme }) => theme.color.background};
+    background-color: ${({ theme }) => theme.color.sunIconBackground};
     transition: transform 0.3s;
 
     ${({ moveToRight }) => moveToRight && css`
