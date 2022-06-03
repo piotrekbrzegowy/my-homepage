@@ -24,7 +24,10 @@ interface IColors {
     buttonBackgroundHover: string;
     buttonBorder: string;
     buttonShadow: string;
+    themeSwitchBackground: string,
+    themeSwitchBorder: string;
     sunIcon: string;
+    sunIconBackground: string;
     socialIconBackground: string;
     socialIconBackgroundHover: string;
     loaderBackground: string;
