@@ -1,7 +1,7 @@
 import { ThemeSwitch } from "../../../common/ThemeSwitch"
 import { Header } from "./Header"
 import { Skills } from "./Section"
-import { skillsData } from "./skillsData"
+import { futureSkillsData, skillsData } from "./skillsData"
 import { Wrapper } from "./styled"
 
 export const PersonalHomepage = () => (
@@ -9,5 +9,6 @@ export const PersonalHomepage = () => (
         <ThemeSwitch />
         <Header />
         <Skills title={"My skillset includes"} skills={skillsData} />
+        <Skills title={"What I want to learn next"} skills={futureSkillsData} />
     </Wrapper>
 )
