@@ -1,6 +1,7 @@
-import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { useAppSelector } from '../../features/homepage/hooks';
+import { PersonalHomepage } from '../../features/homepage/PersonalHomepage';
+import { GlobalStyle } from './globalStyle';
 import { darkTheme, lightTheme } from './theme';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
-      <div></div>
+      <GlobalStyle />
+      <PersonalHomepage />
     </ThemeProvider>
   );
 }
