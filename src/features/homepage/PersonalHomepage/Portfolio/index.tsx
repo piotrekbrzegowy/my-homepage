@@ -1,6 +1,14 @@
+import { useEffect } from "react";
+import { useAppDispatch } from "../../hooks"
+import { fetchRepositoriesLoading } from "../../personalHomepageSlice";
 import { Description, Link, LinkDescription, LinksSection, Tile, Title, Wrapper } from "./styled"
 
 export const PortfolioSection = () => {
+    const dispatch = useAppDispatch();
+
+    useEffect(() => {
+        dispatch(fetchRepositoriesLoading());
+    }, [dispatch])
 
     return (
         <Wrapper>
