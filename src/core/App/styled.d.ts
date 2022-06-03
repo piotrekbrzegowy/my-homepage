@@ -23,6 +23,7 @@ interface IColors {
     buttonBackground: string;
     buttonBackgroundHover: string;
     buttonBorder: string;
+    buttonShadow: string;
     sunIcon: string;
     socialIconBackground: string;
     socialIconBackgroundHover: string;
