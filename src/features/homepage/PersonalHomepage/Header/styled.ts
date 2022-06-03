@@ -74,6 +74,7 @@ export const ButtonLink = styled.a`
 
     &:hover {
         box-shadow: 2px -2px 0 ${({ theme }) => theme.color.buttonShadow}, -2px 2px 0 ${({ theme }) => theme.color.buttonShadow}, 2px 2px 0 ${({ theme }) => theme.color.buttonShadow}, -2px -2px 0 ${({ theme }) => theme.color.buttonShadow},;
+        background-color: ${({ theme }) => theme.color.buttonBackgroundHover};
     }
 
     @media(max-width: ${({ theme }) => theme.media.mobileMax}px) {
