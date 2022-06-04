@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { RootState } from "../../core/store";
 import { IRepository } from "./personalHomepageAPI";
 
 type Status = "initial" | "loading" | "success" | "error";
@@ -33,5 +34,7 @@ const personalHomepageSlice = createSlice({
 })
 
 export const { fetchRepositoriesLoading, fetchRepositoriesSuccess, fetchRepositoriesError } = personalHomepageSlice.actions;
+
+export const selectRepositories = (state: RootState) => state.personalHomepage.repositories
 
 export default personalHomepageSlice.reducer;
