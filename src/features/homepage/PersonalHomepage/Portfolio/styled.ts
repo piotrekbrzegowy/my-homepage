@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
 export const Tile = styled.div`
     max-width: 592px;
     background-color: ${({ theme }) => theme.color.repoBackground};
+    transition: background-color 0.2s ease;
     border: 6px solid ${({ theme }) => theme.color.repoBorder};
     box-shadow: 0px -2px 50px ${({ theme }) => theme.color.repoShadow}, 0px 16px 58px ${({ theme }) => theme.color.repoShadow};
     border-radius: 4px;

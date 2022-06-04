@@ -3,6 +3,7 @@ import { ReactComponent as Bullet } from "./img/bullet.svg";
 
 export const Section = styled.section`
     background-color: ${({ theme }) => theme.color.sectionBackground};
+    transition: background-color 0.2s ease;
     padding: 32px;
     margin: 63px 0 0 0;
     box-shadow: 0px -2px 50px ${({ theme }) => theme.color.sectionShadow}, 0px 16px 58px ${({ theme }) => theme.color.sectionShadow};
