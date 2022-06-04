@@ -71,10 +71,12 @@ export const ButtonLink = styled.a`
     display: flex;
     align-items: center;
     text-decoration: none;
+    transition: 0.3s;
 
     &:hover {
         box-shadow: 2px -2px 0 ${({ theme }) => theme.color.buttonShadow}, -2px 2px 0 ${({ theme }) => theme.color.buttonShadow}, 2px 2px 0 ${({ theme }) => theme.color.buttonShadow}, -2px -2px 0 ${({ theme }) => theme.color.buttonShadow},;
         background-color: ${({ theme }) => theme.color.buttonBackgroundHover};
+        transform: scale(0.97);
     }
 
     @media(max-width: ${({ theme }) => theme.media.mobileMax}px) {

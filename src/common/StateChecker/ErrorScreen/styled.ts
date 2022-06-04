@@ -50,8 +50,10 @@ export const ButtonLink = styled.a`
     text-align: center;
     text-decoration: none;
     margin: 0 0 140px 0;
+    transition: 0.3s;
 
     &:hover {
+        transform: scale(0.97);
         background-color: ${({ theme }) => theme.color.buttonBackgroundHover};
         box-shadow: 2px -2px 0px ${({ theme }) => theme.color.buttonShadow}, -2px 2px 0px ${({ theme }) => theme.color.buttonShadow}, 2px 2px 0px ${({ theme }) => theme.color.buttonShadow}, -2px -2px 0px ${({ theme }) => theme.color.buttonShadow};
     }
