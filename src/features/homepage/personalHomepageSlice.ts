@@ -35,6 +35,8 @@ const personalHomepageSlice = createSlice({
 
 export const { fetchRepositoriesLoading, fetchRepositoriesSuccess, fetchRepositoriesError } = personalHomepageSlice.actions;
 
-export const selectRepositories = (state: RootState) => state.personalHomepage.repositories
+export const selectRepositories = (state: RootState) => state.personalHomepage.repositories;
+export const selectLoading = (state: RootState) => state.personalHomepage.status === "loading";
+export const selectError = (state: RootState) => state.personalHomepage.status === "error";
 
 export default personalHomepageSlice.reducer;
