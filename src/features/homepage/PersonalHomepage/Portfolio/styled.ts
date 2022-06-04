@@ -16,7 +16,7 @@ export const Tile = styled.div`
     border: 6px solid ${({ theme }) => theme.color.repoBorder};
     box-shadow: 0px -2px 50px ${({ theme }) => theme.color.repoShadow}, 0px 16px 58px ${({ theme }) => theme.color.repoShadow};
     border-radius: 4px;
-    padding: 56px;
+    padding: 32px;
 
     &:hover {
         border: 6px solid ${({ theme }) => theme.color.repoBorderHover};
@@ -24,7 +24,7 @@ export const Tile = styled.div`
 
     @media(max-width: ${({ theme }) => theme.media.mobileMax}px){
         max-width: none;
-        padding: 24px;
+        padding: 16px;
     }
 `;
 
