@@ -8,6 +8,7 @@ interface IScreenWidth {
 interface IColors {
     textPrimary: string;
     textSecondary: string;
+    textHover: string,
     background: string;
     sectionBackground: string;
     sectionShadow: string;
