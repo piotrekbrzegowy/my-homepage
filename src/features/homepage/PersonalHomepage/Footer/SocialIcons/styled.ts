@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled, { DefaultTheme, StyledComponent } from "styled-components";
+import { Isocials } from "./socials";
 
 export const List = styled.ul`
     list-style-type: none;
@@ -22,7 +23,7 @@ export const Link = styled.a`
     }
 `;
 
-export const styledIcon = (Icon) => styled(Icon)`
+export const styledIcon = (Icon: React.FunctionComponent<React.SVGProps<SVGSVGElement> & { title?: string | undefined; }>) => styled(Icon)`
     width: 48px;
     height: auto;
 
