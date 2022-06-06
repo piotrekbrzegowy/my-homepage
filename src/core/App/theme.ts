@@ -27,6 +27,7 @@ export const lightTheme: DefaultTheme = {
     color: {
         textPrimary: colorNames.mineShaft,
         textSecondary: colorNames.slateGray,
+        textHover: colorNames.dodgerBlue,
         background: colorNames.mercury,
         sectionBackground: colorNames.white,
         sectionShadow: colorNames.violet2percent,
@@ -60,6 +61,7 @@ export const darkTheme: DefaultTheme = {
     color: {
         textPrimary: colorNames.white,
         textSecondary: colorNames.white,
+        textHover: colorNames.dodgerBlue,
         background: colorNames.mineShaft,
         sectionBackground: colorNames.mineShaft72percent,
         sectionShadow: colorNames.violet2percent,
