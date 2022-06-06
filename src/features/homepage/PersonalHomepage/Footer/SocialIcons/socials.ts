@@ -2,11 +2,12 @@ import { styledIcon } from "./styled";
 import { ReactComponent as GithubIcon } from "./img/github-icon.svg";
 import { ReactComponent as FacebookIcon } from "./img/facebook-icon.svg";
 import { ReactComponent as LinkedInIcon } from "./img/linkedin-icon.svg";
+import { DefaultTheme, StyledComponent } from "styled-components";
 
-interface Isocials {
+export interface Isocials {
     name: string;
     url: string;
-    Icon: React.ComponentProps<"svg">;
+    Icon: StyledComponent<any, DefaultTheme, object, string | number | symbol>;
 }
 
 export const socials: Isocials[] = [
