@@ -7,13 +7,13 @@ You can see my portfolio here [My personal homepage](https://piotrekbrzegowy.git
 
 # Used technologies
 
--React
--Typescript
--Redux
--Redux-toolkit
--Redux-saga
--Axios
--Styled-components
+- React
+- Typescript
+- Redux
+- Redux-toolkit
+- Redux-saga
+- Axios
+- Styled-components
 ## Available Scripts
 
 In the project directory, you can run:
