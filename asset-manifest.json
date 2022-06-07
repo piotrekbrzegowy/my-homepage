@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/personal-homepage-ts/static/js/main.8f4ca089.js",
+    "static/js/787.7b570914.chunk.js": "/personal-homepage-ts/static/js/787.7b570914.chunk.js",
+    "static/media/photo.jpg": "/personal-homepage-ts/static/media/photo.e1e46fff825ef21a22f6.jpg",
+    "static/media/sun-icon.svg": "/personal-homepage-ts/static/media/sun-icon.d0cb21032791c21326ff1d1095ebc0be.svg",
+    "static/media/github-icon.svg": "/personal-homepage-ts/static/media/github-icon.c7899f3ee49852668f3f9e99e4a9d70f.svg",
+    "index.html": "/personal-homepage-ts/index.html",
+    "static/media/linkedin-icon.svg": "/personal-homepage-ts/static/media/linkedin-icon.9f38a04c76c9595b2da81e0828807b47.svg",
+    "static/media/error.svg": "/personal-homepage-ts/static/media/error.a713ca8752dc53fb52f84490e49aabe3.svg",
+    "static/media/envelope.svg": "/personal-homepage-ts/static/media/envelope.f4c24d5687df3b99253bb0311a055e89.svg",
+    "static/media/facebook-icon.svg": "/personal-homepage-ts/static/media/facebook-icon.c86c9160f434f5f752b172ce0fe890d9.svg",
+    "static/media/spinner.svg": "/personal-homepage-ts/static/media/spinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
+    "static/media/bullet.svg": "/personal-homepage-ts/static/media/bullet.41506939970e6369828dfce4b6919035.svg",
+    "main.8f4ca089.js.map": "/personal-homepage-ts/static/js/main.8f4ca089.js.map",
+    "787.7b570914.chunk.js.map": "/personal-homepage-ts/static/js/787.7b570914.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8f4ca089.js"
+  ]
+}
