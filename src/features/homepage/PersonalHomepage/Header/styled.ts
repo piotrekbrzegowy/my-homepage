@@ -14,11 +14,12 @@ export const Wrapper = styled.header`
 
 export const Image = styled.img`
     width: 398px;
-    height: auto;
+    height: 398px;
     border-radius: 50%;
 
     @media(max-width: ${({ theme }) => theme.media.mobileMax}px){
         width: 132px;
+        height: 389px;
     }
 `;
 
