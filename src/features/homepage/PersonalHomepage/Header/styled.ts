@@ -19,7 +19,7 @@ export const Image = styled.img`
 
     @media(max-width: ${({ theme }) => theme.media.mobileMax}px){
         width: 132px;
-        height: 389px;
+        height: 132px;
     }
 `;
 
