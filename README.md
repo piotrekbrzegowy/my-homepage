@@ -1,7 +1,19 @@
-# Getting Started with Create React App
+# My personal homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can see my portfolio here [My personal homepage](https://piotrekbrzegowy.github.io/personal-homepage-ts/).
 
+<img src="./public/personal-homepage-animation.gif" alt="personal-homepage-animation">
+
+
+# Used technologies
+
+-React
+-Typescript
+-Redux
+-Redux-toolkit
+-Redux-saga
+-Axios
+-Styled-components
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,8 +51,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
