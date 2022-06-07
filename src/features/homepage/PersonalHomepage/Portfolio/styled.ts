@@ -73,6 +73,5 @@ export const Link = styled.a`
 
     @media(max-width: ${({ theme }) => theme.media.mobileMax}px){
         font-size: 14px;
-        color: ${({ theme }) => theme.color.repoLinkHover};
     }
 `;
